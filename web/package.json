@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:db": "json-server --watch db.json",
+    "start:run": "parcel index.html watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
